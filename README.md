@@ -1,6 +1,6 @@
 # Compound Interest Calculator
 
-A client-side compound interest calculator with interactive charts, multi-language support, and data export. No build step required — open `index.html` directly in any modern browser.
+A client-side compound interest calculator with interactive charts, multi-language support, and data export. 
 
 ## Features
 
