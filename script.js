@@ -372,6 +372,17 @@ function setupEvents() {
     });
 }
 
+// ─── Visitor counter ──────────────────────────────────────────────────────────
+
+function initVisitorCounter() {
+    const el = $('visitor-count');
+    if (!el) return;
+    fetch('https://abacus.jasoncameron.dev/hit/compound-interest-calculator-leobonacini/visits')
+        .then(res => res.json())
+        .then(data => { el.textContent = data.value.toLocaleString(); })
+        .catch(() => { el.textContent = '—'; });
+}
+
 // ─── Bootstrap ────────────────────────────────────────────────────────────────
 
 function init() {
@@ -381,6 +392,7 @@ function init() {
     initCharts();
     setupEvents();
     restoreData();
+    initVisitorCounter();
 
     window.onLanguageChange = function() {
         updateChartLabels();

@@ -93,6 +93,7 @@ const TRANSLATIONS = {
     ariaScenChart: 'Gráfico comparativo dos cenários',
     ariaRateFreq: 'Frequência da taxa',
     ariaTimeUnit: 'Unidade de tempo',
+    footerVisits: 'Visitas',
     ariaActions: 'Ações',
   },
 
@@ -190,6 +191,7 @@ const TRANSLATIONS = {
     ariaScenChart: 'Scenario comparison chart',
     ariaRateFreq: 'Rate frequency',
     ariaTimeUnit: 'Time unit',
+    footerVisits: 'Visits',
     ariaActions: 'Actions',
   },
 
@@ -287,6 +289,7 @@ const TRANSLATIONS = {
     ariaScenChart: 'Gráfico comparativo de escenarios',
     ariaRateFreq: 'Frecuencia de la tasa',
     ariaTimeUnit: 'Unidad de tiempo',
+    footerVisits: 'Visitas',
     ariaActions: 'Acciones',
   },
 };
